@@ -296,10 +296,7 @@ select {
   padding: 10px;
   cursor: pointer;
 }
-.btn,
-.urgent {
-  width: 12vw;
-}
+
 .jobsDescription:hover {
   border: 3px solid rgb(231, 228, 228);
 }
@@ -332,11 +329,16 @@ select {
   margin-top: 10px;
   cursor: pointer;
 }
+
+.urgent {
+  width: 17vw;
+}
 .btn {
   border: none;
   border-radius: 12px;
   background-color: lightskyblue;
   color: blue;
+  width: 17vw;
 }
 .btn:hover {
   background-color: lightblue;
