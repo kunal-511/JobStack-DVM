@@ -317,7 +317,7 @@ select {
 }
 .row2-content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 0.08fr 1fr 0.08fr 1fr 0.08fr 1fr;
 }
 .row2-content span {
   padding: 0px 14px;
