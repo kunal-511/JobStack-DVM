@@ -150,26 +150,50 @@ button {
 .invise1 {
   display: none;
 }
+hr{
+  margin: 12px 0px;
+}
 .invise2 {
   display: none;
+  padding: 10px;
+  color:  rgb(47, 191, 239);
+  cursor: pointer;
 }
 .invise3 {
   display: none;
+  padding: 10px;
+  color:  rgb(47, 191, 239);
+  cursor: pointer;
 }
 .invise4 {
   display: none;
+  padding: 10px;
+  color:  rgb(47, 191, 239);
+  cursor: pointer;
 }
 .invise5 {
   display: none;
+  padding: 10px;
+  color:  rgb(47, 191, 239);
+  cursor: pointer;
 }
 .invise6 {
   display: none;
+  padding: 10px;
+  color:  rgb(47, 191, 239);
+  cursor: pointer;
 }
 .invise7 {
   display: none;
+  padding: 10px;
+  color:  rgb(47, 191, 239);
+  cursor: pointer;
 }
 .invise8 {
   display: none;
+  padding: 10px;
+  color:  rgb(47, 191, 239);
+  cursor: pointer;
 }
 /* Main Area of the page */
 .container {
@@ -196,7 +220,7 @@ button {
   height: 8vh;
   border: 1px solid white;
   border-radius: 12px;
-  margin: 0px 0px;
+  margin: 10px 10px;
 }
 /* Input box to search */
 input {
@@ -247,6 +271,7 @@ select {
   display: grid;
   grid-template-columns: 0.1fr 0.1fr 0.1fr;
   grid-gap: 40px;
+  margin: 0px 40px;
 
   align-items: center;
   justify-content: center;
@@ -314,7 +339,7 @@ select {
 }
 .row2-content {
   display: grid;
-  grid-template-columns: 0.08fr 1fr 0.08fr 1fr 0.08fr 1fr;
+  grid-template-columns: 0.07fr 1fr 0.07fr 1fr 0.07fr 1fr;
 }
 .row2-content span {
   padding: 0px 14px;
@@ -355,9 +380,9 @@ select {
 #more {
   background-color: blue;
   cursor: pointer;
-  width: 16vw;
-  height: 8vh;
-  /* margin: 0px 500px; */
+  width: 14vw;
+  height: 10vh;
+  margin: 0px 20px;
   margin-top: 60px;
   text-align: center;
   align-items: center;
@@ -371,7 +396,7 @@ select {
   border: blue 1px solid;
   border-radius: 8px;
 }
-.more:hover {
+#more:hover {
   background-color: white;
   color: blue;
 }
@@ -560,7 +585,7 @@ table {
 }
 #show {
   margin: 50px;
-}
+  }
 .form {
   margin: 50px;
 }
@@ -597,6 +622,9 @@ table {
     display: grid;
     grid-template-columns: 3fr 0.5fr 0.09fr;
   }
+  .search{
+    width:80vw ;
+  }
 }
 
 @media screen and (max-width: 730px) {
@@ -627,14 +655,23 @@ table {
   .container p {
     display: none;
   }
-}
-@media screen and (max-width: 630px) {
+  .output{
+    width: 10px;
+  }
   .content1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
+
 }
+/* @media screen and (max-width: 690px) {
+  .content1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+} */
 @media screen and (max-width: 615px) {
   .data {
     padding: 20px;
@@ -643,20 +680,26 @@ table {
 
 @media screen and (max-width: 580px) {
   .find {
-    width: 13vw;
-    height: 5vh;
+    width: 10vw;
+    height: 10vh;
   }
   input {
-    height: 5vh;
+    height: 10vh;
   }
   select {
-    height: 5vh;
+    height: 10vh;
   }
+  
 }
 
 @media screen and (max-width: 550px) {
   .card h2 {
     font-size: 1rem;
+  }
+  #more{
+    width: 26vw;
+    height: 14vh;
+    padding: 10px 0px;
   }
 }
 @media screen and (max-width: 544px) {
