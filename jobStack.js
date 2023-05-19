@@ -1,4 +1,4 @@
-// alert("Hello user! Welcome on JobStack you will find the best jobs for you");
+alert("Hello user! Welcome on JobStack you will find the best jobs for you");
 
 document.getElementsByClassName("login")[0].addEventListener("click", function () {
     var yourName = prompt("Hello! user please enter your name");
