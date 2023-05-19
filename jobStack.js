@@ -1,8 +1,6 @@
-alert("Hello user! Welcome on JobStack you will find the best jobs for you");
+// alert("Hello user! Welcome on JobStack you will find the best jobs for you");
 
-document
-  .getElementsByClassName("login")[0]
-  .addEventListener("click", function () {
+document.getElementsByClassName("login")[0].addEventListener("click", function () {
     var yourName = prompt("Hello! user please enter your name");
     alert("Hi " + yourName + " you have successfully login in to the page ");
   });
@@ -11,12 +9,9 @@ $("#more").click(function () {
   $(".hide").toggleClass("invisible");
   $(".content4").addClass("content1");
 });
-// var i = 0;
-// while (i < 8) {
-//   $("#link"[i]).click(function(){
-//     $(".invise"[i]).toggleClass("wrap")
-//   })
-// }
+$("#link1").click(function () {
+  $(".invise1").toggleClass("wrap");
+});
 
 $("#link2").click(function () {
   $(".invise2").toggleClass("wrap");
@@ -30,6 +25,16 @@ $("#link4").click(function () {
 $("#link5").click(function () {
   $(".invise5").toggleClass("wrap");
 });
+$("#link6").click(function () {
+  $(".invise6").toggleClass("wrap");
+});
+$("#link7").click(function () {
+  $(".invise7").toggleClass("wrap");
+});
+$("#link8").click(function () {
+  $(".invise8").toggleClass("wrap");
+});
+
 
 $(".link").click(function () {
   $("#wrap").toggleClass("invisible");
