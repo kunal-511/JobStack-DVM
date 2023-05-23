@@ -81,7 +81,8 @@
 
         <div class="container">
             <h1>There Are <span> 93,178 </span> Postings Here For you!</h1>
-            <h4>Find jobs, Employment & Career Opportunities</h4>
+            <!-- <h4>Find jobs, Employment & Career Opportunities</h4> -->
+            <span id="element"></span>
             <!-- Search box -->
             <div class="search">
                 <input type="text" placeholder="Job tile,location, keywords" id="searchbar">
@@ -688,7 +689,15 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="jobStack.js">
+        
       
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Find Jobs', 'Employment', 'Career Opportunities', 'Internships'],
+            typeSpeed: 50,
+        });
     </script>
 
 </body>
