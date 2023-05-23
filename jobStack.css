@@ -144,6 +144,10 @@ button {
 .content {
   padding: 0px 14px;
 }
+#element{
+  background-color: darkorange;
+  font-size: 1.5rem;
+}
 .invisible {
   display: none;
 }
